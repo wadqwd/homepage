@@ -17,7 +17,11 @@
     margin: 15px 0 20px;
     font-family: 'Raleway';
 }
+/* .my_resume {
+    width: 50%;
+    height: 80%;
 
+} */
 .progress {
     height: 5px;
     background: var(--secondary);
