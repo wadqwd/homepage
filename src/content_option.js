@@ -95,17 +95,17 @@ const dataportfolio = [{
 },
 {
     img: "https://img2.imgtp.com/2024/05/22/cLpo447y.jpg",
-    description: "包装",
+    description: "Packaging design",
     link: "baozhuang",
 },
 {
     img: "https://img2.imgtp.com/2024/05/22/LeJi7e1H.jpg",
-    description: "平面",
+    description: "Graphic design",
     link: "pingmian",
 },
 {
     img: "https://img2.imgtp.com/2024/05/22/JIRk0S3x.png",
-    description: "小程序",
+    description: "Mini program",
     link: "xiaochengxu",
 }
 ];

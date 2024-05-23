@@ -11,15 +11,13 @@ export const Pingmian = () => {
       <Container className="About-header">
         <Helmet>
           <meta charSet="utf-8" />
-          <title> 平面 | {meta.title} </title>{" "}
-          {/* 返回上一页 */}
+          <title> Graphic design | {meta.title} </title>{" "}
           <meta name="description" content={meta.description} />
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-          <Link to="/portfolios">返回上一页</Link>
-
-            <h1 className="display-4 mb-4"> 平面 </h1>{" "}
+          <Link to="/portfolio">Back</Link>
+            <h1 className="display-4 mb-4"> Graphic design </h1>{" "}
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>

@@ -15,7 +15,7 @@ export const Portfolios = () => {
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-          <Link to="/portfolios">返回上一页</Link>
+          <Link to="/portfolio">Back</Link>
 
             <h1 className="display-4 mb-4"> Portfolio </h1>{" "}
             <hr className="t_border my-4 ml-0 text-left" />
