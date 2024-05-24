@@ -36,9 +36,13 @@ jobs:
           npm install
       - name: Build
         run: |
-          # 如果你的项目文件不在根目录，需要先 cd 到项目目录
-          # cd website
-          npm ci && CI=false npm run build
+          if [ -e yarn.lock ]; then
+          yarn install --frozen-lockfile
+          elif [ -e package-lock.json ]; then
+          npm ci
+          else
+          npm i
+          fi
         env:
           # 如果你的 URL 从根目录开始，则设置为 /，否则设置为你的子目录，如 /website
           PUBLIC_URL: /
