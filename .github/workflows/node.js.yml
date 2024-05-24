@@ -1,64 +1,21 @@
-name: Deploy GitHub Pages
-
-on:
-  push:
-    branches: ['main'] # 如果你的默认分支不是 main，请修改这里
-  workflow_dispatch:
-
+name: Build and Deploy
+on: [push]
 permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: 'pages'
-  cancel-in-progress: true
-
+  contents: write
 jobs:
-  build:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build-and-deploy:
+    concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-      - name: Install dependencies
-        run: |
-          # 如果你的项目文件不在根目录，需要先 cd 到项目目录
-          # cd website
-          npm install
-      - name: Build
-        run: |
-          if [ -e yarn.lock ]; then
-          yarn install --frozen-lockfile
-          elif [ -e package-lock.json ]; then
-          npm ci
-          else
-          npm i
-          fi
-        env:
-          # 如果你的 URL 从根目录开始，则设置为 /，否则设置为你的子目录，如 /website
-          PUBLIC_URL: /
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        # with:
-          # 如果你的项目文件不在根目录，请修改这里为项目的 build 目录，如 './website/build'
-          # path: './build'
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
 
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+      - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
+        run: |
+          npm ci
+          npm run build
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: build # The folder the action should deploy.
