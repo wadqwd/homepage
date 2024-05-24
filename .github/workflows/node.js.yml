@@ -48,9 +48,9 @@ jobs:
           PUBLIC_URL: /
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
-        with:
+        # with:
           # 如果你的项目文件不在根目录，请修改这里为项目的 build 目录，如 './website/build'
-          path: './build'
+          # path: './build'
 
   deploy:
     environment:
