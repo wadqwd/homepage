@@ -14,14 +14,14 @@ const introdata = {
   },
   description:
     "Currently a junior at Hebei University-Central Lancashire College of Media and Creativity, majoring in advertising and business management. I am willing to use what I have learned to develop together with the company!",
-  your_img_url: "https://img2.imgtp.com/2024/05/20/GDu8hbOO.jpg",
+  your_img_url: "http://imgagec.test.upcdn.net/2d1d0114daf3fd713fab2b1c0b6c7a5.jpg",
 };
 
 const dataabout = {
   title: "JoeyXue",
   aboutme:
     "I am a creative advertising designer and currently live in China Majoring in advertising, he is currently a junior at Hebei University-Central Lancashire College of Media and Creativity. CET-4 for English majors, CET-6 or above for college English, proficient in listening, speaking, reading and writing in English. During his studies, he majored in advertising and business management. I have won many school awards, and I am willing to use what I have learned to develop together with the company!",
-  my_resume: "https://img2.imgtp.com/2024/05/22/5stF8pUT.jpg",
+  my_resume: "http://imgagec.test.upcdn.net/2d1d0114daf3fd713fab2b1c0b6c7a5.jpg",
 };
 const worktimeline = [
   {
@@ -88,186 +88,159 @@ const services = [
 
 const dataportfolio = [
   {
-    img: "https://img2.imgtp.com/2024/05/20/l98Vp8zS.jpg",
+    img: "http://imgagec.test.upcdn.net/6a72884e1f6e4b1dfcbee8b21f0c9fd.jpg",
     description: "Peripheral design",
     link: "ip",
   },
   {
-    img: "https://img2.imgtp.com/2024/05/20/NQX5zYoQ.jpg",
+    img: "http://imgagec.test.upcdn.net/a88ff222d2956cc823c93432e3a0dd4.jpg",
     description: "portfolio style",
     link: "portfolios",
   },
   {
-    img: "https://img2.imgtp.com/2024/05/22/zaLCxIqQ.png",
+    img: "http://imgagec.test.upcdn.net/1.png",
     description: "web",
     link: "webs",
   },
   {
-    img: "https://img2.imgtp.com/2024/05/22/cLpo447y.jpg",
+    img: "http://imgagec.test.upcdn.net/5c23043bd7149657e5af69058fa7453.jpg",
     description: "Packaging design",
     link: "baozhuang",
   },
   {
-    img: "https://img2.imgtp.com/2024/05/22/LeJi7e1H.jpg",
+    img: "http://imgagec.test.upcdn.net/5e7af0c36653ed3c416ea0ce4ca0774.jpg",
     description: "Graphic design",
     link: "pingmian",
   },
   {
-    img: "https://img2.imgtp.com/2024/05/22/JIRk0S3x.png",
+    img: "http://imgagec.test.upcdn.net/图片3.png",
     description: "Mini program",
     link: "xiaochengxu",
   },
 ];
 const xiaochengxu = [
-  { img: "https://img2.imgtp.com/2024/05/22/JIRk0S3x.png" },
-  { img: "https://img2.imgtp.com/2024/05/22/5RubB38g.png" },
-  { img: "https://img2.imgtp.com/2024/05/22/vLb1t6NH.png" },
-  { img: "https://img2.imgtp.com/2024/05/22/GpQNe4jB.png" },
+  { img: "http://imgagec.test.upcdn.net/图片3.png" },
+  { img: "http://imgagec.test.upcdn.net/图片4.png" },
+  { img: "http://imgagec.test.upcdn.net/图片5.png" },
+  { img: "http://imgagec.test.upcdn.net/图片6.png" },
 ];
 const baozhuang = [
-  { img: "https://img2.imgtp.com/2024/05/22/cLpo447y.jpg" },
-  { img: "https://img2.imgtp.com/2024/05/22/kpZ9EHRf.jpg" },
-  { img: "https://img2.imgtp.com/2024/05/22/NGzk11Ne.jpg" },
-  { img: "https://img2.imgtp.com/2024/05/22/Ddyd3RMe.jpg" },
-  { img: "https://img2.imgtp.com/2024/05/22/bTCu2xS7.jpg" },
-  { img: "https://img2.imgtp.com/2024/05/22/GzyJ3bHY.jpg" },
-  { img: "https://img2.imgtp.com/2024/05/22/0ri42Y6v.jpg" },
-  { img: "https://img2.imgtp.com/2024/05/22/qOVZjrD3.jpg" },
-  { img: "https://img2.imgtp.com/2024/05/22/nS9DD8OG.jpg" },
+  { img: "http://imgagec.test.upcdn.net/5c23043bd7149657e5af69058fa7453.jpg" },
+  { img: "http://imgagec.test.upcdn.net/49cc4e6340c3d37ec380c03c39d8f1d.jpg" },
+  { img: "http://imgagec.test.upcdn.net/52d65d3c55d64af19be08f620a18d9c.jpg" },
+  { img: "http://imgagec.test.upcdn.net/52ef7f89cb0db2dad4b76fa1e49533c.jpg" },
+  { img: "http://imgagec.test.upcdn.net/22350bc39156b532bf2461372ccb2e8.jpg" },
+  { img: "http://imgagec.test.upcdn.net/a354091c67dca819eecdb87f3749779.jpg" },
+  { img: "http://imgagec.test.upcdn.net/d117ff1407b2bcab04b54a37c12026d.jpg" },
+  { img: "http://imgagec.test.upcdn.net/de47a458d8443f6c5d1c7daea2b942e.jpg" },
+  { img: "http://imgagec.test.upcdn.net/f7d52d0cc2149b471f1b583e36dd830.jpg" },
 ];
 const pingmian = [
-  { img: "https://img2.imgtp.com/2024/05/22/LeJi7e1H.jpg" },
-  { img: "https://img2.imgtp.com/2024/05/22/pSEK0LAv.png" },
-  { img: "https://img2.imgtp.com/2024/05/22/RyC6D7CI.jpg" },
-  { img: "https://img2.imgtp.com/2024/05/22/WpwQeByc.jpg" },
-  { img: "https://img2.imgtp.com/2024/05/22/2QaG4j81.png" },
-  { img: "https://img2.imgtp.com/2024/05/22/lt5chMC9.jpg" },
-  { img: "https://img2.imgtp.com/2024/05/22/4LSkLMrY.jpg" },
+  { img: "http://imgagec.test.upcdn.net/5e7af0c36653ed3c416ea0ce4ca0774.jpg" },
+  { img: "http://imgagec.test.upcdn.net/66ce1a1e152981186b9da1c231c031c.png" },
+  { img: "http://imgagec.test.upcdn.net/b8476449c0051df999c2c5a1576cc33.jpg" },
+  { img: "http://imgagec.test.upcdn.net/c3d26d9d0e01f27a7ef2e16f009ebf8.jpg" },
+  { img: "http://imgagec.test.upcdn.net/fa9c7ffbc7c313ef81f935ac418e9ba.png" },
+  { img: "http://imgagec.test.upcdn.net/fbdd7a41888e44e87480e388640c53f.jpg" },
+  { img: "http://imgagec.test.upcdn.net/ff73060109d1be2d60cde64d6490edb.jpg" },
 ];
 const webs = [
-  { img: "https://img2.imgtp.com/2024/05/22/zaLCxIqQ.png" },
-  { img: "https://img2.imgtp.com/2024/05/22/9O3xvuQh.png" },
-  { img: "https://img2.imgtp.com/2024/05/22/8U2JIj7t.png" },
-  { img: "https://img2.imgtp.com/2024/05/22/l8Wfksvd.png" },
-  { img: "https://img2.imgtp.com/2024/05/22/RiXdoa7K.png" },
+  { img: "http://imgagec.test.upcdn.net/1.png" },
+  { img: "http://imgagec.test.upcdn.net/2.png" },
+  { img: "http://imgagec.test.upcdn.net/3.png" },
+  { img: "http://imgagec.test.upcdn.net/4.png" },
+  { img: "http://imgagec.test.upcdn.net/5.png" },
 ];
 const ipdesign = [
   {
-    img: "https://img2.imgtp.com/2024/05/20/l98Vp8zS.jpg",
-    description: "ip设计",
-    link: "#",
+    img: "http://imgagec.test.upcdn.net/6a72884e1f6e4b1dfcbee8b21f0c9fd.jpg",
+
   },
   {
-    img: "https://img2.imgtp.com/2024/05/20/UbEbw97I.jpg",
-    description: "ip设计",
-    link: "#",
+    img: "http://imgagec.test.upcdn.net/808b0a84ff28707c5570a6a7cca2ca9.jpg",
+
   },
   {
-    img: "https://img2.imgtp.com/2024/05/20/rjyyFS6g.jpg",
-    description: "ip设计",
-    link: "#",
+    img: "http://imgagec.test.upcdn.net/96d1415a10f8e3cb698336f2a8bc316.jpg",
+
   },
   {
-    img: "https://img2.imgtp.com/2024/05/20/Yt3NJs7Q.jpg",
-    description: "ip设计",
-    link: "#",
+    img: "http://imgagec.test.upcdn.net/a00905c875ac4d4f96ad93d1f7a9100.jpg",
+ 
   },
   {
-    img: "https://img2.imgtp.com/2024/05/20/LbnfOPge.jpg",
-    description: "ip设计",
-    link: "#",
+    img: "http://imgagec.test.upcdn.net/a88ff222d2956cc823c93432e3a0dd4.jpg",
+ 
   },
 ];
 const portfolios = [
   {
-    img: "https://img2.imgtp.com/2024/05/20/NQX5zYoQ.jpg",
-    description: "portfolio style",
-    link: "portfolio",
+    img: "http://imgagec.test.upcdn.net/a88ff222d2956cc823c93432e3a0dd4.jpg",
+
   },
   {
-    img: "https://img2.imgtp.com/2024/05/22/nnrpnPZS.jpg",
-    description: "portfolio style",
-    link: "portfolio",
+    img: "http://imgagec.test.upcdn.net/2a477bed406873aacf73c1625075d78.jpg",
+
   },
   {
-    img: "https://img2.imgtp.com/2024/05/20/m4AEkwRk.jpg",
-    description: "portfolio style",
-    link: "portfolio",
+    img: "http://imgagec.test.upcdn.net/3bd8d3944069596f86f2671badd88da.jpg",
+
   },
   {
-    img: "https://img2.imgtp.com/2024/05/20/m4AEkwRk.jpg",
-    description: "portfolio style",
-    link: "portfolio",
+    img: "http://imgagec.test.upcdn.net/3f4fe2d4185d85a9f01031d9c4ff5a1.jpg",
+
   },
   {
-    img: "https://img2.imgtp.com/2024/05/20/GkprYcWd.jpg",
-    description: "portfolio style",
-    link: "portfolio",
+    img: "http://imgagec.test.upcdn.net/6a446d9a8de207d772eddbb6e6646e5.jpg",
+
   },
   {
-    img: "https://img2.imgtp.com/2024/05/20/GoYqhTCu.jpg",
-    description: "portfolio style",
-    link: "portfolio",
+    img: "http://imgagec.test.upcdn.net/9f1d61523a64c8ab349ad5040d4d5d8.jpg",
+
   },
   {
-    img: "https://img2.imgtp.com/2024/05/22/vQlDhIgM.jpg",
-    description: "portfolio style",
-    link: "portfolio",
+    img: "http://imgagec.test.upcdn.net/23d5100a10c8b7aae1d2bf54e1f111a.jpg",
+
   },
   {
-    img: "https://img2.imgtp.com/2024/05/22/LWYq7Zr1.jpg",
-    description: "portfolio style",
-    link: "portfolio",
+    img: "http://imgagec.test.upcdn.net/33702dc9f7eb2be01527e76cc8e9fdc.jpg",
+
   },
   {
-    img: "https://img2.imgtp.com/2024/05/22/tFYPLKPm.jpg",
-    description: "portfolio style",
-    link: "portfolio",
+    img: "http://imgagec.test.upcdn.net/140869dd3b41d237bc9cd8ebb5e4c72.jpg",
+
   },
   {
-    img: "https://img2.imgtp.com/2024/05/22/jQgy370a.jpg",
-    description: "portfolio style",
-    link: "portfolio",
+    img: "http://imgagec.test.upcdn.net/871343433f2c15bf24529f231114cf2.jpg",
+
   },
   {
-    img: "https://img2.imgtp.com/2024/05/22/hgcvD8qq.jpg",
-    description: "portfolio style",
-    link: "portfolio",
+    img: "http://imgagec.test.upcdn.net/aa736d31cf7efec831b8a0fbce111d8.jpg",
+
   },
   {
-    img: "https://img2.imgtp.com/2024/05/22/TsgfgA12.jpg",
-    description: "portfolio style",
-    link: "portfolio",
+    img: "http://imgagec.test.upcdn.net/beafbdbb6be3cf10a2a2e9975832dbe.jpg",
+
   },
   {
-    img: "https://img2.imgtp.com/2024/05/22/hgcvD8qq.jpg",
-    description: "portfolio style",
-    link: "portfolio",
+    img: "http://imgagec.test.upcdn.net/cd088daa52cdc0d4b431d73e8640e0e.jpg",
+
   },
   {
-    img: "https://img2.imgtp.com/2024/05/22/d3U1TwTB.jpg",
-    description: "portfolio style",
-    link: "portfolio",
+    img: "http://imgagec.test.upcdn.net/cfc4b78e1c8af77d3b2040c42674c93.jpg",
+
   },
   {
-    img: "https://img2.imgtp.com/2024/05/22/UDeIwYAJ.jpg",
-    description: "portfolio style",
-    link: "portfolio",
+    img: "http://imgagec.test.upcdn.net/d21cf175281b6fa5ca4b28a927c4045.jpg",
+
   },
   {
-    img: "https://img2.imgtp.com/2024/05/22/bmpwd7AD.jpg",
-    description: "portfolio style",
-    link: "portfolio",
+    img: "http://imgagec.test.upcdn.net/de3d44fa5bd55bbb0d330393c931fc1.jpg",
+
   },
   {
-    img: "https://img2.imgtp.com/2024/05/22/dcGom9ml.jpg",
-    description: "portfolio style",
-    link: "portfolio",
-  },
-  {
-    img: "https://img2.imgtp.com/2024/05/22/gKDSsAZW.jpg",
-    description: "portfolio style",
-    link: "portfolio",
+    img: "http://imgagec.test.upcdn.net/f524b086f36c6e0ac165a923e7dbf17.jpg",
+
   },
 ];
 
