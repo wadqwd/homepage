@@ -14,7 +14,7 @@ const introdata = {
   },
   description:
     "Currently a junior at Hebei University-Central Lancashire College of Media and Creativity, majoring in advertising and business management. I am willing to use what I have learned to develop together with the company!",
-  your_img_url: "http://img.liuxiaohai.ren/2d1d0114daf3fd713fab2b1c0b6c7a5.jpg",
+  your_img_url: "http://img.liuxiaohai.ren/head.jpg",
 };
 
 const dataabout = {
