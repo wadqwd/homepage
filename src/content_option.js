@@ -21,7 +21,7 @@ const dataabout = {
   title: "JoeyXue",
   aboutme:
     "I am a creative advertising designer and currently live in China Majoring in advertising, he is currently a junior at Hebei University-Central Lancashire College of Media and Creativity. CET-4 for English majors, CET-6 or above for college English, proficient in listening, speaking, reading and writing in English. During his studies, he majored in advertising and business management. I have won many school awards, and I am willing to use what I have learned to develop together with the company!",
-  my_resume: "http://img.liuxiaohai.ren/2d1d0114daf3fd713fab2b1c0b6c7a5.jpg",
+  my_resume: "http://img.liuxiaohai.ren/7c107a6c4a7672c457451e41bfa7ecd.jpg",
 };
 const worktimeline = [
   {
